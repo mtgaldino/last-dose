@@ -1,0 +1,13 @@
+# Assets de terceiros: "Zombie Apocalypse Tileset" (Ittai Manero)
+# A licença não permite redistribuir os arquivos, então eles não vão para o repositório.
+
+assets/
+
+# Python
+__pycache__/
+*.pyc
+
+# Lixo de sistema
+.DS_Store
+__MACOSX/
+Thumbs.db
