@@ -177,6 +177,4 @@ while True:
             pygame.draw.rect(screen, (0, 0, 255), colliders_mapa[i], 2)
         pygame.draw.rect(screen, (255, 0, 0), (pos_x, pos_y, larg_collider, alt_collider), 2)
 
-    #teste
-
     pygame.display.update()
