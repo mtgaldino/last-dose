@@ -103,11 +103,11 @@ while True:
     old_pos_x = pos_x
     if keys[pygame.K_LEFT] or keys[pygame.K_a]:
         pos_x = pos_x - velocidade * dt
-        primeiro_frame = 3
+        primeiro_frame = 9
         andando = True
     elif keys[pygame.K_RIGHT] or keys[pygame.K_d]:
         pos_x = pos_x + velocidade * dt
-        primeiro_frame = 9
+        primeiro_frame = 3
         andando = True
     if colide_com_mapa(pygame.Rect(pos_x, pos_y, larg_collider, alt_collider)):
         pos_x = old_pos_x

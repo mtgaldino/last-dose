@@ -72,8 +72,8 @@ def copiar_pacote():
 
 
 def gerar_frames_direita():
-    # O pacote só tem o personagem virado para a esquerda (frames 3-5).
-    # Os frames 9-11 são esses mesmos espelhados, para andar para a direita.
+    # O pacote só tem o personagem virado para a direita (frames 3-5).
+    # Os frames 9-11 são esses mesmos espelhados, para andar para a esquerda.
     pasta = os.path.join(DESTINO, "jogador")
     for i in range(3):
         img = pygame.image.load(os.path.join(pasta, f"andar_{3 + i}.png"))
